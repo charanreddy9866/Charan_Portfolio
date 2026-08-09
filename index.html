@@ -7,636 +7,591 @@
     <!--=============== FONT AWESOME ===============-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
+    <!--=============== AOS ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Responsive portfolio website - Crypticalcoder</title>
+    <title>Charan Reddy - Full Stack Developer & ML Engineer</title>
   </head>
   <body>
-    <!--==================== STYLE SWITCHER ====================-->
-    <div class="style__switcher"></div>
+    <!--==================== HEADER ====================-->
+    <header class="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Charan Reddy</a>
 
- <!--==================== HEADER ====================-->
-<header class="header">
-  <nav class="nav container">
-    <a href="index.html" class="nav__logo">Charan Reddy</a>
-
-    <ul class="nav__list">
-      <li class="nav__item">
-        <a href="#home" class="nav__link active-link">HOME</a>
-      </li>
-
-      <li class="nav__item">
-        <a href="#about" class="nav__link">About</a>
-      </li>
-
-      <li class="nav__item">
-        <a href="#qualification" class="nav__link">Education</a>
-      </li>
-
-      <li class="nav__item">
-        <a href="#Projects" class="nav__link">Projects </a>
-      </li>
-
-      
-
-      <li class="nav__item">
-        <a href="#services" class="nav__link">Services</a>
-      </li>
-
-      <li class="nav__item">
-        <a href="#skills" class="nav__link">Skills </a>
-      </li>
-
-      
-
-      <li class="nav__item">
-        <a href="#contact" class="nav__link">Contact</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-          
-
-         
-
-
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">HOME</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">Education</a>
+          </li>
+          <li class="nav__item">
+            <a href="#Projects" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+          <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+          </button>
         </ul>
       </nav>
     </header>
 
     <!--==================== MAIN ====================-->
     <main class="main">
-<!--==================== HOME ====================-->
-<section class="home" id="home">
-  <div class="home__container container grid">
-    <div class="home__content">
-      <span class="home__small">Hi, I'm</span>
-      <h1 class="home__title">
-        Charan Reddy Katta <br />
-        <span>Full Stack Developer & ML Engineer</span>
-      </h1>
-      <p class="home__description">
-        Master's student in Computer Science at NJIT with a focus on Web Development, Machine Learning, and Cloud technologies.<br />
-        
-        Gained hands-on experience through internships,also active in tech training and student engagement events.<br />
-        
-         
-      </p>
-      
-      
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content" data-aos="fade-right" data-aos-duration="800">
+            <span class="home__small">Hi, I'm</span>
+            <h1 class="home__title">
+              Charan Reddy Katta <br />
+              <span>Full Stack Developer & ML Engineer</span>
+            </h1>
+            <p class="home__description">
+              Master's student in Computer Science at NJIT with a focus on Web Development, Machine Learning, and Cloud technologies. Gained hands-on experience through internships and active in tech training and student engagement events.
+            </p>
 
-      <div class="home__btns">
-        <a href="#contact" class="btn">Hire me </a>
-        
-      </div>
-    </div>
+            <div class="home__btns">
+              <a href="#contact" class="btn">Hire me</a>
+              <a href="#projects" class="btn btn-outline">View my work</a>
+            </div>
+          </div>
 
-    <div class="home__img-wrapper">
-      <img src="assets/img/Profile.jpg" alt="Charan Reddy" class="home__img" />
-    </div>
-  </div>
-</section>
-
+          <div class="home__img-wrapper" data-aos="fade-left" data-aos-duration="800">
+            <img src="assets/img/Profile.jpg" alt="Charan Reddy" class="home__img" />
+          </div>
+        </div>
+      </section>
 
       <!--==================== ABOUT ====================-->
       <section class="about section" id="about">
         <div class="about__container container grid">
-          <div class="about__img-wrapper">
-            <img src="" alt="" class="home">
-            
-          </div>
-
-          <div class="about_content">
+          <div class="about_content" data-aos="fade-right">
             <h2 class="section__title" data-title="Who Am I?">
-              "I hold a Master’s degree in Computer Science from NJIT, with experience in software development."
+              I'm a passionate developer with expertise in full-stack development and machine learning.
             </h2>
 
             <p class="about_description">
-              "I hold a Master’s degree in Computer Science from NJIT, with experience in software development."
+              With a Master's degree from NJIT and a strong foundation in computer science, I specialize in building scalable web applications, developing predictive models, and creating data-driven solutions. I'm committed to continuous learning and delivering high-quality software.
             </p>
 
             <ul class="about__data grid">
               <li class="data__item">
                 <h3 class="data_title">Name:</h3>
-                  <span class="data__discription">Charan Reddy Katta</span>
+                <span class="data__discription">Charan Reddy Katta</span>
               </li>
               <li class="data__item">
                 <h3 class="data_title">Age:</h3>
-                  <span class="data__discription">24</span>
+                <span class="data__discription">24</span>
               </li>
               <li class="data__item">
                 <h3 class="data_title">From:</h3>
-                  <span class="data__discription">United States of America</span>
+                <span class="data__discription">United States of America</span>
               </li>
               <li class="data__item">
                 <h3 class="data_title">Email:</h3>
-                  <span class="data__discription about__link">kcharanreddy2407@gmail.com</span>
-                  </li>    
-                  
+                <span class="data__discription">kcharanreddy2407@gmail.com</span>
               </li>
             </ul>
 
             <div class="about__bottom">
-              <!-- Resume PDF Link -->
               <a href="assets/img/Charan 2025.pdf" class="btn" download target="_blank">
                 <i class="fa-solid fa-file-arrow-down"></i> Download Resume
               </a>
-        
-              <!-- Social Media Links -->
+
               <div class="about__social-links">
-                <a href="https://www.linkedin.com/in/charan-reddy-k-a45a23276/" target="_blank" class="about__social-link">
+                <a href="https://www.linkedin.com/in/charan-reddy-k-a45a23276/" target="_blank" class="about__social-link" title="LinkedIn">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
-            
-                <a href="https://github.com/charanreddy9866" target="_blank" class="about__social-link">
+                <a href="https://github.com/charanreddy9866" target="_blank" class="about__social-link" title="GitHub">
                   <i class="fa-brands fa-github"></i>
                 </a>
-            
-                <a href="https://x.com/Charanreddy2407" target="_blank" class="about__social-link">
+                <a href="https://x.com/Charanreddy2407" target="_blank" class="about__social-link" title="Twitter">
                   <i class="fa-brands fa-twitter"></i>
                 </a>
-            
-                <a href="https://www.instagram.com/mr.cr__/" target="_blank" class="about__social-link">
+                <a href="https://www.instagram.com/mr.cr__/" target="_blank" class="about__social-link" title="Instagram">
                   <i class="fa-brands fa-instagram"></i>
                 </a>
               </div>
             </div>
-            
-           
-<section class="qualification section" id="qualification">
-  <div class="container">
-    <h2 class="section__title title-center" data-title="My Professional Journey">Qualifications</h2>
+          </div>
+        </div>
+      </section>
 
-    <div class="resume__container grid">
-      
+      <!--==================== EDUCATION & EXPERIENCE ====================-->
+      <section class="qualification section" id="qualification">
+        <div class="container">
+          <h2 class="section__title title-center" data-title="My Professional Journey">Qualifications</h2>
+
+          <div class="resume__container grid">
             <!-- Education Section -->
-      <div class="resume__group">
-        <div class="resume__box">
-          <h3 class="resume__heading">
-            <i class="fas fa-graduation-cap"></i> Education
-          </h3>
+            <div class="resume__group">
+              <div>
+                <h3 class="resume__heading">
+                  <i class="fas fa-graduation-cap"></i> Education
+                </h3>
 
-          <div class="resume__item">
-            <div class="resume__header">
-              <div class="resume__institution">
-                <h3 class="resume__subtitle">New Jersey Institute of Technology</h3>
-                <span class="resume__location">Newark, NJ</span>
+                <div class="resume__item" data-aos="fade-up" data-aos-delay="100">
+                  <div class="resume__header">
+                    <div class="resume__institution">
+                      <h3 class="resume__subtitle">New Jersey Institute of Technology</h3>
+                      <span class="resume__location">Newark, NJ</span>
+                    </div>
+                    <span class="resume__date">2023 - 2025</span>
+                  </div>
+                  <div class="resume__content">
+                    <h4 class="resume__title">MS in Computer Science</h4>
+                    <ul class="resume__description">
+                      <li>GPA: 3.8 / 4.0</li>
+                      <li>Specialized in AI, Machine Learning & Web Systems</li>
+                      <li>Coursework: Operating Systems, Deep Learning, AI, DSA</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="resume__item" data-aos="fade-up" data-aos-delay="200">
+                  <div class="resume__header">
+                    <div class="resume__institution">
+                      <h3 class="resume__subtitle">KPRIT Institute of Technology & Science</h3>
+                      <span class="resume__location">JNTUH - Hyderabad, India</span>
+                    </div>
+                    <span class="resume__date">2019 - 2023</span>
+                  </div>
+                  <div class="resume__content">
+                    <h4 class="resume__title">B.Tech in Computer Science</h4>
+                    <ul class="resume__description">
+                      <li>Graduated with First Class Honors</li>
+                      <li>Capstone: React-based eCommerce platform</li>
+                      <li>Coursework: Web Technologies, Data Structures, DBMS</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <span class="resume__date">2023 - 2025</span>
             </div>
-            <div class="resume__content">
-              <h4 class="resume__title">MS in Computer Science</h4>
-              <ul class="resume__description">
-                <li>GPA: 3.8 / 4.0</li>
-                <li>Specialized in AI, Machine Learning & Web Systems</li>
-                <li>Coursework: Operating Systems, Deep Learning, AI, DSA</li>
-              </ul>
+
+            <!-- Experience Section -->
+            <div class="resume__group">
+              <div>
+                <h3 class="resume__heading">
+                  <i class="fas fa-briefcase"></i> Experience
+                </h3>
+
+                <div class="resume__item" data-aos="fade-up" data-aos-delay="100">
+                  <div class="resume__header">
+                    <div class="resume__institution">
+                      <h3 class="resume__subtitle">Rebel</h3>
+                      <span class="resume__location">New York, USA (Hybrid)</span>
+                    </div>
+                    <span class="resume__date">May 2024 – May 2025</span>
+                  </div>
+                  <div class="resume__content">
+                    <h4 class="resume__title">Software Engineer</h4>
+                    <ul class="resume__description">
+                      <li>Cross-Platform Development: Led end-to-end development of a cross-platform application using React.js (frontend) and Django (backend).</li>
+                      <li>API Engineering: Developed over 20 RESTful API endpoints with JWT-based security.</li>
+                      <li>Cloud Integration: Integrated AWS services including EC2, S3, and Lambda.</li>
+                      <li>Agile Collaboration: Collaborated with cross-functional teams using JIRA and Agile practices.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="resume__item" data-aos="fade-up" data-aos-delay="200">
+                  <div class="resume__header">
+                    <div class="resume__institution">
+                      <h3 class="resume__subtitle">GBCS Group</h3>
+                      <span class="resume__location">Calgary, Canada (Remote)</span>
+                    </div>
+                    <span class="resume__date">Aug 2024 – Feb 2025</span>
+                  </div>
+                  <div class="resume__content">
+                    <h4 class="resume__title">Software Developer</h4>
+                    <ul class="resume__description">
+                      <li>Fleet Dashboard Optimization: Created React.js-based dashboards for fleet management with modular components.</li>
+                      <li>Codebase Migration: Migrated class components to functional components with React Hooks.</li>
+                      <li>Backend Collaboration: Designed efficient API workflows and troubleshot data rendering issues.</li>
+                      <li>UI Enhancements: Delivered improvements that reduced task execution time by 30%.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="resume__item" data-aos="fade-up" data-aos-delay="300">
+                  <div class="resume__header">
+                    <div class="resume__institution">
+                      <h3 class="resume__subtitle">Sanmiwago</h3>
+                      <span class="resume__location">New York, USA (Remote)</span>
+                    </div>
+                    <span class="resume__date">Jul 2024 – Sep 2024</span>
+                  </div>
+                  <div class="resume__content">
+                    <h4 class="resume__title">Associate Software Engineer</h4>
+                    <ul class="resume__description">
+                      <li>Internal Tooling: Built internal tools and visual dashboards for QA and reporting.</li>
+                      <li>Data Visualization: Designed SQL-based data reports and visualizations.</li>
+                      <li>Campaign Analytics: Integrated digital campaign analytics into reporting systems.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="resume__item" data-aos="fade-up" data-aos-delay="400">
+                  <div class="resume__header">
+                    <div class="resume__institution">
+                      <h3 class="resume__subtitle">SharpStakes</h3>
+                      <span class="resume__location">Ontario, Canada (Remote)</span>
+                    </div>
+                    <span class="resume__date">Feb 2024 – May 2024</span>
+                  </div>
+                  <div class="resume__content">
+                    <h4 class="resume__title">Junior Software Engineer / Brand Representative</h4>
+                    <ul class="resume__description">
+                      <li>User Engagement: Onboarded over 200 users through product demos and digital outreach.</li>
+                      <li>Automation: Developed automation scripts to track campaign performance.</li>
+                      <li>Reporting: Delivered weekly reports that influenced product strategy.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="resume__item" data-aos="fade-up" data-aos-delay="500">
+                  <div class="resume__header">
+                    <div class="resume__institution">
+                      <h3 class="resume__subtitle">Cognier Insights Pvt Ltd</h3>
+                      <span class="resume__location">Hyderabad, India</span>
+                    </div>
+                    <span class="resume__date">Sep 2022 – Jun 2023</span>
+                  </div>
+                  <div class="resume__content">
+                    <h4 class="resume__title">Machine Learning Engineer Intern</h4>
+                    <ul class="resume__description">
+                      <li>Churn Prediction: Engineered churn prediction models using TensorFlow and pandas.</li>
+                      <li>ML Pipeline Automation: Automated model training pipelines and evaluation metrics.</li>
+                      <li>Stakeholder Presentation: Delivered findings with detailed performance metrics.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div class="resume__item">
-            <div class="resume__header">
-              <div class="resume__institution">
-                <h3 class="resume__subtitle">KPRIT Institute of Technology & Science</h3>
-                <span class="resume__location">JNTUH - Hyderabad, India</span>
-              </div>
-              <span class="resume__date">2019 - 2023</span>
+      <!--==================== PROJECTS ====================-->
+      <section class="Projects section" id="Projects">
+        <div class="container">
+          <h2 class="section__title title-center" data-title="My Work">Projects</h2>
+
+          <div class="projects__grid grid">
+            <div class="project__card" data-aos="zoom-in" data-aos-delay="100">
+              <h3 class="project__title">Multi-Task Plant Disease Detection</h3>
+              <p class="project__tags">🌿 Deep Learning · PyTorch</p>
+              <p class="project__desc">
+                Built a PyTorch model to classify plant species and detect diseases simultaneously — optimized for multi-task learning with high accuracy on crop disease identification.
+              </p>
+              <a href="https://github.com/charanreddy9866" target="_blank">
+                <i class="fas fa-github"></i> View on GitHub
+              </a>
             </div>
-            <div class="resume__content">
-              <h4 class="resume__title">B.Tech in Computer Science</h4>
-              <ul class="resume__description">
-                <li>Graduated with First Class Honors</li>
-                <li>Capstone: React-based eCommerce platform</li>
-                <li>Coursework: Web Technologies, Data Structures, DBMS</li>
-              </ul>
+
+            <div class="project__card" data-aos="zoom-in" data-aos-delay="150">
+              <h3 class="project__title">Churn Prediction System</h3>
+              <p class="project__tags">📊 Machine Learning · TensorFlow · SQL</p>
+              <p class="project__desc">
+                Created a predictive model for subscription churn using structured data and deep neural networks to improve customer retention forecasting.
+              </p>
+              <a href="https://github.com/charanreddy9866" target="_blank">
+                <i class="fas fa-github"></i> View on GitHub
+              </a>
+            </div>
+
+            <div class="project__card" data-aos="zoom-in" data-aos-delay="200">
+              <h3 class="project__title">Turtle Back Zoo Online System</h3>
+              <p class="project__tags">🦉 DB Design · MySQL · EER</p>
+              <p class="project__desc">
+                Engineered a full schema to support online ticketing and information management for a zoo website with efficient query optimization.
+              </p>
+              <a href="https://github.com/charanreddy9866/Turtle-Back-Zoo-Online-Application" target="_blank">
+                <i class="fas fa-github"></i> View on GitHub
+              </a>
+            </div>
+
+            <div class="project__card" data-aos="zoom-in" data-aos-delay="250">
+              <h3 class="project__title">Bank Marketing Response</h3>
+              <p class="project__tags">💼 SVM · LSTM · Analytics</p>
+              <p class="project__desc">
+                Developed hybrid ML models (SVM & LSTM) for predicting user response to marketing campaigns with comparative analysis.
+              </p>
+              <a href="https://github.com/charanreddy9866" target="_blank">
+                <i class="fas fa-github"></i> View on GitHub
+              </a>
+            </div>
+
+            <div class="project__card" data-aos="zoom-in" data-aos-delay="300">
+              <h3 class="project__title">SIP Abnormal Detection</h3>
+              <p class="project__tags">📶 Research · Deep Learning</p>
+              <p class="project__desc">
+                Explored different DL models for identifying anomalous SIP signaling behavior in VoIP networks with focus on real-time detection.
+              </p>
+              <a href="https://github.com/charanreddy9866" target="_blank">
+                <i class="fas fa-github"></i> View on GitHub
+              </a>
+            </div>
+
+            <div class="project__card" data-aos="zoom-in" data-aos-delay="350">
+              <h3 class="project__title">Network-Simulation-Go-Back-N</h3>
+              <p class="project__tags">🎤 Networking · Algorithms</p>
+              <p class="project__desc">
+                Presented a comprehensive network simulation demo using Go-Back-N ARQ method demonstrating protocol efficiency and reliability.
+              </p>
+              <a href="https://github.com/charanreddy9866/Network-Simulation-Go-Back-N-Method" target="_blank">
+                <i class="fas fa-github"></i> View on GitHub
+              </a>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <!-- Experience Section -->
-<div class="resume__group">
-  <div class="resume__box">
-    <h3 class="resume__heading">
-      <i class="fas fa-briefcase"></i> Experience
-    </h3>
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <div class="container">
+          <h2 class="section__title title-center" data-title="What I Offer">Services</h2>
 
-    <div class="resume__item">
-      <div class="resume__header">
-        <div class="resume__institution">
-          <h3 class="resume__subtitle">Rebel</h3>
-          <span class="resume__location">New York, USA (Hybrid)</span>
-        </div>
-        <span class="resume__date">May 2024 – May 2025</span>
-      </div>
-      <div class="resume__content">
-        <h4 class="resume__title">Software Engineer</h4>
-        <ul class="resume__description">
-          <li>Cross-Platform Development: Led end-to-end development of a cross-platform application using React.js (frontend) and Django (backend), delivering real-time interactivity and responsive design.</li>
-          <li>API Engineering: Developed over 20 RESTful API endpoints for user authentication, data handling, and system notifications with JWT-based security.</li>
-          <li>Cloud Integration: Integrated AWS services including EC2, S3, and Lambda for scalable deployments and automation.</li>
-          <li>Agile Collaboration: Collaborated with cross-functional teams using Agile practices (JIRA, daily standups) to ensure timely delivery of mobile-first features.</li>
-        </ul>
-      </div>
-    </div>
+          <div class="services__container grid">
+            <div class="services_item" data-aos="fade-up" data-aos-delay="100">
+              <i class="fa-solid fa-code services__icon"></i>
+              <h3 class="services__title">Full Stack Development</h3>
+              <p class="services__description">
+                Scalable web apps using React.js, Django, and Node.js with secure APIs and clean UI/UX.
+              </p>
+              <span class="services__no">01</span>
+            </div>
 
-    <div class="resume__item">
-      <div class="resume__header">
-        <div class="resume__institution">
-          <h3 class="resume__subtitle">GBCS Group</h3>
-          <span class="resume__location">Calgary, Canada (Remote)</span>
-        </div>
-        <span class="resume__date">Aug 2024 – Feb 2025</span>
-      </div>
-      <div class="resume__content">
-        <h4 class="resume__title">Software Developer</h4>
-        <ul class="resume__description">
-          <li>Fleet Dashboard Optimization: Created and optimized React.js-based dashboards for fleet management with modular components and enhanced performance.</li>
-          <li>Codebase Migration: Migrated class components to functional components with React Hooks for better maintainability.</li>
-          <li>Backend Collaboration: Worked closely with backend teams to design efficient API workflows and troubleshoot data rendering issues.</li>
-          <li>UI Enhancements: Delivered UI improvements that reduced task execution time by 30% and improved user accessibility.</li>
-        </ul>
-      </div>
-    </div>
+            <div class="services_item" data-aos="fade-up" data-aos-delay="150">
+              <i class="fa-solid fa-brain services__icon"></i>
+              <h3 class="services__title">Machine Learning</h3>
+              <p class="services__description">
+                Predictive models for churn, classification, and automation using TensorFlow & PyTorch.
+              </p>
+              <span class="services__no">02</span>
+            </div>
 
-    <div class="resume__item">
-      <div class="resume__header">
-        <div class="resume__institution">
-          <h3 class="resume__subtitle">Sanmiwago</h3>
-          <span class="resume__location">New York, USA (Remote)</span>
-        </div>
-        <span class="resume__date">Jul 2024 – Sep 2024</span>
-      </div>
-      <div class="resume__content">
-        <h4 class="resume__title">Associate Software Engineer</h4>
-        <ul class="resume__description">
-          <li>Internal Tooling: Built internal tools and visual dashboards to support QA, reporting, and customer engagement workflows.</li>
-          <li>Data Visualization: Designed SQL-based data reports and visualizations for executive summaries and business insights.</li>
-          <li>Campaign Analytics: Participated in brand marketing initiatives, integrating digital campaign analytics into reporting systems.</li>
-        </ul>
-      </div>
-    </div>
+            <div class="services_item" data-aos="fade-up" data-aos-delay="200">
+              <i class="fa-solid fa-chart-line services__icon"></i>
+              <h3 class="services__title">Data Visualization</h3>
+              <p class="services__description">
+                Stunning dashboards using Tableau, Power BI, Plotly, and Seaborn for insightful decisions.
+              </p>
+              <span class="services__no">03</span>
+            </div>
 
-    <div class="resume__item">
-      <div class="resume__header">
-        <div class="resume__institution">
-          <h3 class="resume__subtitle">SharpStakes</h3>
-          <span class="resume__location">Ontario, Canada (Remote)</span>
-        </div>
-        <span class="resume__date">Feb 2024 – May 2024</span>
-      </div>
-      <div class="resume__content">
-        <h4 class="resume__title">Junior Software Engineer / Brand Representative</h4>
-        <ul class="resume__description">
-          <li>User Engagement: Onboarded over 200 users through product demos and digital outreach, collecting engagement metrics.</li>
-          <li>Automation: Developed automation scripts to track campaign performance and user engagement through APIs and Google Sheets.</li>
-          <li>Reporting: Delivered weekly reports and recommendations that influenced product and marketing strategy.</li>
-        </ul>
-      </div>
-    </div>
+            <div class="services_item" data-aos="fade-up" data-aos-delay="250">
+              <i class="fa-solid fa-server services__icon"></i>
+              <h3 class="services__title">API & Backend</h3>
+              <p class="services__description">
+                REST APIs built with Django REST & Express.js, integrated with PostgreSQL & MongoDB.
+              </p>
+              <span class="services__no">04</span>
+            </div>
 
-    <div class="resume__item">
-      <div class="resume__header">
-        <div class="resume__institution">
-          <h3 class="resume__subtitle">Cognier Insights Pvt Ltd</h3>
-          <span class="resume__location">Hyderabad, India</span>
-        </div>
-        <span class="resume__date">Sep 2022 – Jun 2023</span>
-      </div>
-      <div class="resume__content">
-        <h4 class="resume__title">Machine Learning Engineer Intern</h4>
-        <ul class="resume__description">
-          <li>Churn Prediction: Engineered churn prediction models using TensorFlow, pandas, and SQL to improve customer retention forecasting.</li>
-          <li>ML Pipeline Automation: Automated model training pipelines and evaluation metrics reporting using Python.</li>
-          <li>Stakeholder Presentation: Delivered findings through stakeholder presentations with performance metrics, including accuracy, precision, and recall.</li>
-        </ul>
-      </div>
-    </div>
+            <div class="services_item" data-aos="fade-up" data-aos-delay="300">
+              <i class="fa-solid fa-cloud services__icon"></i>
+              <h3 class="services__title">Cloud & DevOps</h3>
+              <p class="services__description">
+                Dockerized deployments via AWS, Heroku, Firebase & CI/CD pipelines on GitHub Actions.
+              </p>
+              <span class="services__no">05</span>
+            </div>
 
-  </div>
-</div>
+            <div class="services_item" data-aos="fade-up" data-aos-delay="350">
+              <i class="fa-solid fa-pencil-ruler services__icon"></i>
+              <h3 class="services__title">UI/UX Design</h3>
+              <p class="services__description">
+                Converting Figma designs into responsive, animated frontends with MUI, CSS & JS.
+              </p>
+              <span class="services__no">06</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-
-<!--==================== PROJECTS ====================-->
-  <section class="Projects section" id="Projects">
-    <div class="container">
-      <h2 class="section__title title-center" data-title="My Work">Projects</h2>
-
-      <div class="projects__grid grid">
-        <!-- Project 1 -->
-        <div class="project__card" data-aos="zoom-in">
-          <h3 class="project__title">Multi-Task Plant Disease Detection</h3>
-          <p class="project__tags">🌿 Deep Learning · PyTorch</p>
-          <p class="project__desc">
-            Built a PyTorch model to classify plant species and detect diseases simultaneously — optimized for multi-task learning.
-          </p>
-          <a href="https://github.com/charanreddy9866" target="_blank">View on GitHub</a>
-        </div>
-        <!-- Project 2 -->
-        <div class="project__card" data-aos="zoom-in">
-          <h3 class="project__title">Churn Prediction System</h3>
-          <p class="project__tags">📊 Machine Learning · TensorFlow · SQL</p>
-          <p class="project__desc">
-            Created a predictive model for subscription churn using structured data and deep neural networks.
-          </p>
-          <a href="https://github.com/charanreddy9866" target="_blank">View on GitHub</a>
-        </div>
-        <!-- Project 3 -->
-        <div class="project__card" data-aos="zoom-in">
-          <h3 class="project__title">Turtle Back Zoo Online System</h3>
-          <p class="project__tags">🦉 DB Design · MySQL · EER</p>
-          <p class="project__desc">
-            Engineered a full schema to support online ticketing and information management for a zoo website.
-          </p>
-          <a href="https://github.com/charanreddy9866/Turtle-Back-Zoo-Online-Application" target="_blank">View on GitHub</a>
-        </div>
-        <!-- Project 4 -->
-        <div class="project__card" data-aos="zoom-in">
-          <h3 class="project__title">Bank Marketing Response</h3>
-          <p class="project__tags">💼 SVM · LSTM · Analytics</p>
-          <p class="project__desc">
-            Developed hybrid ML models (SVM & LSTM) for predicting user response to marketing campaigns.
-          </p>
-          <a href="https://github.com/charanreddy9866" target="_blank">View on GitHub</a>
-        </div>
-        <!-- Project 5 -->
-        <div class="project__card" data-aos="zoom-in">
-          <h3 class="project__title">SIP Abnormal Detection</h3>
-          <p class="project__tags">📶 Research · Deep Learning</p>
-          <p class="project__desc">
-            Explored different DL models for identifying anomalous SIP signaling behavior in VoIP networks.
-          </p>
-          <a href="https://github.com/charanreddy9866" target="_blank">View on GitHub</a>
-        </div>
-        <!-- Project 6 -->
-        <div class="project__card" data-aos="zoom-in">
-          <h3 class="project__title">Network-Simulation-Go-Back-N-Method</h3>
-          <p class="project__tags">🎤 GitHub</p>
-          <p class="project__desc">
-            Presented a network simulation demo using Go-Back-N ARQ method in class.
-          </p>
-          <a href="https://github.com/charanreddy9866/Network-Simulation-Go-Back-N-Method" target="_blank">View on GitHub</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--==================== SERVICES ====================-->
-  <section class="services section" id="services">
-    <div class="container">
-      <h2 class="section__title title-center" data-title="What I Offer">Services</h2>
-
-      <div class="services__container grid">
-        <!-- Full Stack Development -->
-        <div class="services_item">
-          <i class="fa-solid fa-code services__icon"></i>
-          <h3 class="services__title">Full Stack Development</h3>
-          <p class="services__description">
-            Scalable web apps using React.js, Django, and Node.js with secure APIs and clean UI/UX.
-          </p>
-          <span class="services__no">01</span>
-        </div>
-        <!-- Machine Learning -->
-        <div class="services_item">
-          <i class="fa-solid fa-brain services__icon"></i>
-          <h3 class="services__title">Machine Learning</h3>
-          <p class="services__description">
-            Predictive models for churn, classification, and automation using TensorFlow & PyTorch.
-          </p>
-          <span class="services__no">02</span>
-        </div>
-        <!-- Data Visualization -->
-        <div class="services_item">
-          <i class="fa-solid fa-chart-line services__icon"></i>
-          <h3 class="services__title">Data Visualization</h3>
-          <p class="services__description">
-            Stunning dashboards using Tableau, Power BI, Plotly, and Seaborn for insightful decisions.
-          </p>
-          <span class="services__no">03</span>
-        </div>
-        <!-- API & Backend -->
-        <div class="services_item">
-          <i class="fa-solid fa-server services__icon"></i>
-          <h3 class="services__title">API & Backend</h3>
-          <p class="services__description">
-            REST APIs built with Django REST & Express.js, integrated with PostgreSQL & MongoDB.
-          </p>
-          <span class="services__no">04</span>
-        </div>
-        <!-- Cloud & DevOps -->
-        <div class="services_item">
-          <i class="fa-solid fa-cloud services__icon"></i>
-          <h3 class="services__title">Cloud & DevOps</h3>
-          <p class="services__description">
-            Dockerized deployments via AWS, Heroku, Firebase & CI/CD pipelines on GitHub Actions.
-          </p>
-          <span class="services__no">05</span>
-        </div>
-        <!-- UI/UX Design -->
-        <div class="services_item">
-          <i class="fa-solid fa-pencil-ruler services__icon"></i>
-          <h3 class="services__title">UI/UX Design</h3>
-          <p class="services__description">
-            Converting Figma designs into responsive, animated frontends with MUI, CSS & JS.
-          </p>
-          <span class="services__no">06</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- AOS scroll animation script -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1000,
-      once: true
-    });
-  </script>
-      
       <!--==================== SKILLS ====================-->
       <section class="skills section" id="skills">
-        <h2 class="section__title title-center" data-title="Skills Summary">Skills</h2>
-        <div class="skills__container container grid">
+        <div class="container">
+          <h2 class="section__title title-center" data-title="Skills Summary">Skills</h2>
+          <div class="skills__container grid">
+            <div class="skill__box" data-aos="fade-up" data-aos-delay="100">
+              <div class="skills__titles">
+                <h3 class="skills__name">React.js</h3>
+                <span class="skills__no">90%</span>
+              </div>
+              <p class="skills__description">
+                Built full-stack and frontend applications using React.js across multiple internships, focusing on performance, hooks, and component reuse.
+              </p>
+              <div class="skills__bar">
+                <div class="skills__percentage" style="--percentage: 90%;"></div>
+              </div>
+            </div>
 
-          <!-- React -->
-          <div class="skill__box">
-            <div class="skills__titles">
-              <h3 class="skills__name">React.js</h3>
-              <span class="skills__no">90%</span>
+            <div class="skill__box" data-aos="fade-up" data-aos-delay="150">
+              <div class="skills__titles">
+                <h3 class="skills__name">Python</h3>
+                <span class="skills__no">90%</span>
+              </div>
+              <p class="skills__description">
+                Used extensively in machine learning, web development (Django, Flask), and automation — including churn prediction and deep learning research.
+              </p>
+              <div class="skills__bar">
+                <div class="skills__percentage" style="--percentage: 90%;"></div>
+              </div>
             </div>
-            <p class="skills__description">
-              Built full-stack and frontend applications using React.js across multiple internships, focusing on performance, hooks, and component reuse.
-            </p>
-            <div class="skills__bar">
-              <div class="skills__percentage" style="width: 90%;"><span></span></div>
+
+            <div class="skill__box" data-aos="fade-up" data-aos-delay="200">
+              <div class="skills__titles">
+                <h3 class="skills__name">Django</h3>
+                <span class="skills__no">85%</span>
+              </div>
+              <p class="skills__description">
+                Used for full-stack development during internships; integrated REST APIs and admin panels for scalable solutions.
+              </p>
+              <div class="skills__bar">
+                <div class="skills__percentage" style="--percentage: 85%;"></div>
+              </div>
             </div>
-          </div>
-        
-          <!-- Python -->
-          <div class="skill__box">
-            <div class="skills__titles">
-              <h3 class="skills__name">Python</h3>
-              <span class="skills__no">90%</span>
+
+            <div class="skill__box" data-aos="fade-up" data-aos-delay="250">
+              <div class="skills__titles">
+                <h3 class="skills__name">JavaScript</h3>
+                <span class="skills__no">80%</span>
+              </div>
+              <p class="skills__description">
+                Core language for building dynamic frontend components; used alongside React.js for UI development and business logic.
+              </p>
+              <div class="skills__bar">
+                <div class="skills__percentage" style="--percentage: 80%;"></div>
+              </div>
             </div>
-            <p class="skills__description">
-              Used extensively in machine learning, web development (Django, Flask), and automation — including churn prediction and deep learning research.
-            </p>
-            <div class="skills__bar">
-              <div class="skills__percentage" style="width: 90%;"><span></span></div>
+
+            <div class="skill__box" data-aos="fade-up" data-aos-delay="300">
+              <div class="skills__titles">
+                <h3 class="skills__name">TensorFlow / PyTorch</h3>
+                <span class="skills__no">80%</span>
+              </div>
+              <p class="skills__description">
+                Built deep learning models for time-series classification and plant disease detection as part of academic and thesis projects.
+              </p>
+              <div class="skills__bar">
+                <div class="skills__percentage" style="--percentage: 80%;"></div>
+              </div>
             </div>
-          </div>
-        
-          <!-- Django -->
-          <div class="skill__box">
-            <div class="skills__titles">
-              <h3 class="skills__name">Django</h3>
-              <span class="skills__no">85%</span>
-            </div>
-            <p class="skills__description">
-              Used for full-stack development during internships; integrated REST APIs and admin panels for scalable solutions.
-            </p>
-            <div class="skills__bar">
-              <div class="skills__percentage" style="width: 85%;"><span></span></div>
-            </div>
-          </div>
-        
-          <!-- JavaScript -->
-          <div class="skill__box">
-            <div class="skills__titles">
-              <h3 class="skills__name">JavaScript</h3>
-              <span class="skills__no">80%</span>
-            </div>
-            <p class="skills__description">
-              Core language for building dynamic frontend components; used alongside React.js for UI development and business logic.
-            </p>
-            <div class="skills__bar">
-              <div class="skills__percentage" style="width: 80%;"><span></span></div>
-            </div>
-          </div>
-        
-          <!-- TensorFlow & PyTorch -->
-          <div class="skill__box">
-            <div class="skills__titles">
-              <h3 class="skills__name">TensorFlow / PyTorch</h3>
-              <span class="skills__no">80%</span>
-            </div>
-            <p class="skills__description">
-              Built deep learning models for time-series classification and plant disease detection as part of academic and thesis projects.
-            </p>
-            <div class="skills__bar">
-              <div class="skills__percentage" style="width: 80%;"><span></span></div>
+
+            <div class="skill__box" data-aos="fade-up" data-aos-delay="350">
+              <div class="skills__titles">
+                <h3 class="skills__name">SQL / Databases</h3>
+                <span class="skills__no">75%</span>
+              </div>
+              <p class="skills__description">
+                Worked with PostgreSQL and MongoDB for backend data storage, querying, and reporting in various full-stack applications.
+              </p>
+              <div class="skills__bar">
+                <div class="skills__percentage" style="--percentage: 75%;"></div>
+              </div>
             </div>
           </div>
-        
-          <!-- SQL & Databases -->
-          <div class="skill__box">
-            <div class="skills__titles">
-              <h3 class="skills__name">SQL / Databases</h3>
-              <span class="skills__no">75%</span>
-            </div>
-            <p class="skills__description">
-              Worked with PostgreSQL and MongoDB for backend data storage, querying, and reporting in various full-stack applications.
-            </p>
-            <div class="skills__bar">
-              <div class="skills__percentage" style="width: 75%;"><span></span></div>
-            </div>
-          </div>
-        
         </div>
-        
-
-      <!--==================== PORTFOLIO ====================-->
-      <section class="works" id="works"></section>
-
-      <!--==================== Clients ====================-->
-      <section class="Clients" id="Clients">
-        <h2 class="section__title title-center" data-title="Clients">
-          What My Clients Say
-        </h2>
       </section>
-      
-      <div class="clients__container container grid">
-        <div class="clients__item">
-          <p class="clients__description">
-            Charan would be a great fit for any front-end development role. At weRebel, Charan
-            demonstrated strong skills in REACT, HTML, CSS, and Python, consistently delivering
-            excellent results. Utilizing both class and function-based components, Charan was
-            able to adapt and improve our user experience.
-          </p>
-      
-          <div class="clients__data">
-            <img src="assets/img/JUSTIN.png" alt="Justin Kerr" class="client__img" />
-      
-            <h3 class="clients__name">
-              Justin Kerr
-              <span class="client__identity">New York, United States</span>
-            </h3>
+
+      <!--==================== CLIENTS ====================-->
+      <section class="Clients section" id="Clients">
+        <div class="container">
+          <h2 class="section__title title-center" data-title="Clients">What My Clients Say</h2>
+
+          <div class="clients__container grid">
+            <div class="clients__item" data-aos="zoom-in">
+              <p class="clients__description">
+                Charan would be a great fit for any front-end development role. At weRebel, Charan demonstrated strong skills in REACT, HTML, CSS, and Python, consistently delivering excellent results. Utilizing both class and function-based components, Charan was able to adapt and improve our user experience.
+              </p>
+
+              <div class="clients__data">
+                <img src="assets/img/JUSTIN.png" alt="Justin Kerr" class="client__img" />
+
+                <h3 class="clients__name">
+                  Justin Kerr
+                  <span class="client__identity">New York, United States</span>
+                </h3>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      
+      </section>
 
-     
       <!--==================== CONTACT ====================-->
-<section class="contact section" id="contact">
-  <h2 class="section__title title-center" data-title="Get in Touch">
-    Contact Me
-  </h2>
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="section__title title-center" data-title="Get in Touch">Contact Me</h2>
 
-  <div class="contact__container container grid">
-    <div class="contact_details">
-      <!-- Phone Contact -->
-      <div class="contact__item">
-        <i class="fa-solid fa-phone contact__icon"></i>
-        <div>
-          <h3 class="contact__title">Call me</h3>
-          <span class="contact__data">+1 (551) 375 6924</span>
+          <div class="contact__container grid">
+            <div class="contact_details">
+              <div class="contact__item" data-aos="fade-right" data-aos-delay="100">
+                <i class="fa-solid fa-phone contact__icon"></i>
+                <div>
+                  <h3 class="contact__title">Call me</h3>
+                  <span class="contact__data">+1 (551) 375 6924</span>
+                </div>
+              </div>
+
+              <div class="contact__item" data-aos="fade-right" data-aos-delay="200">
+                <i class="fa-solid fa-envelope contact__icon"></i>
+                <div>
+                  <h3 class="contact__title">E-mail me</h3>
+                  <span class="contact__data">kcharanreddy2407@gmail.com</span>
+                </div>
+              </div>
+
+              <div class="contact__item" data-aos="fade-right" data-aos-delay="300">
+                <i class="fa-solid fa-location-dot contact__icon"></i>
+                <div>
+                  <h3 class="contact__title">Address</h3>
+                  <span class="contact__data">New Jersey, USA</span>
+                </div>
+              </div>
+            </div>
+
+            <form action="https://formspree.io/f/mnnpoano" method="POST" class="contact__form" data-aos="fade-left" data-aos-delay="100">
+              <div class="form__group">
+                <div class="form__input">
+                  <input type="text" name="name" placeholder="Your Name" class="input__control" required />
+                </div>
+
+                <div class="form__input">
+                  <input type="email" name="email" placeholder="Your Email" class="input__control" required />
+                </div>
+              </div>
+
+              <div class="form__input">
+                <input type="text" name="subject" placeholder="Subject" class="input__control" />
+              </div>
+
+              <div class="form__input">
+                <textarea name="message" placeholder="Your Message" cols="30" rows="10" class="input__control textarea" required></textarea>
+              </div>
+
+              <button type="submit" class="btn contact__btn">Send Message</button>
+            </form>
+          </div>
         </div>
-      </div>
-      
-      <!-- Email Contact -->
-      <div class="contact__item">
-        <i class="fa-solid fa-envelope contact__icon"></i>
-        <div>
-          <h3 class="contact__title">E-mail me</h3>
-          <span class="contact__data">Kcharanreddy2407@gmail.com</span>
-        </div>
-      </div>
-      
-      <!-- Address Contact -->
-      <div class="contact__item">
-        <i class="fa-solid fa-location-dot contact__icon"></i>
-        <div>
-          <h3 class="contact__title">Address</h3>
-          <span class="contact__data">New Jersey, USA</span>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Contact Form -->
-    <form action="https://formspree.io/f/mnnpoano" method="POST" class="contact__form">
-      <div class="form__group">
-        <div class="form__input">
-          <input type="text" name="name" placeholder="Name" class="input__control" required />
-        </div>
-    
-        <div class="form__input">
-          <input type="email" name="email" placeholder="E-mail" class="input__control" required />
-        </div>
-      </div>
-    
-      <div class="form__input">
-        <input type="text" name="subject" placeholder="Subject" class="input__control" />
-      </div>
-    
-      <div class="form__input">
-        <textarea name="message" placeholder="Message" cols="30" rows="10" class="input__control textarea" required></textarea>
-      </div>
-    
-      <button type="submit" class="btn contact__btn">Send Message</button>
-    </form>
+      </section>
+    </main>
 
     <!--==================== FOOTER ====================-->
     <footer class="footer">
@@ -644,26 +599,104 @@
         <p class="footer__copyright">&copy;2025 Charan Katta. All Rights Reserved</p>
 
         <div class="about__social-links">
-          <a href="https://www.linkedin.com/in/charan-reddy-k-a45a23276/" target="_blank" class="about__social-link">
+          <a href="https://www.linkedin.com/in/charan-reddy-k-a45a23276/" target="_blank" class="about__social-link" title="LinkedIn">
             <i class="fa-brands fa-linkedin"></i>
           </a>
-      
-          <a href="https://github.com/charanreddy9866" target="_blank" class="about__social-link">
+
+          <a href="https://github.com/charanreddy9866" target="_blank" class="about__social-link" title="GitHub">
             <i class="fa-brands fa-github"></i>
           </a>
-      
-          <a href="https://x.com/Charanreddy2407" target="_blank" class="about__social-link">
+
+          <a href="https://x.com/Charanreddy2407" target="_blank" class="about__social-link" title="Twitter">
             <i class="fa-brands fa-twitter"></i>
           </a>
-      
-          <a href="https://www.instagram.com/mr.cr__/" target="_blank" class="about__social-link">
+
+          <a href="https://www.instagram.com/mr.cr__/" target="_blank" class="about__social-link" title="Instagram">
             <i class="fa-brands fa-instagram"></i>
           </a>
-
-      
         </div>
       </div>
     </footer>
+
+    <!--==================== BACK TO TOP BUTTON ====================-->
+    <button class="back-to-top" id="backToTop" title="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!--==================== SCRIPTS ====================-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      // Initialize AOS
+      AOS.init({
+        duration: 1000,
+        once: false,
+        offset: 100
+      });
+
+      // Theme Toggle
+      const themeToggle = document.getElementById('themeToggle');
+      const htmlElement = document.documentElement;
+      const body = document.body;
+
+      // Check for saved theme preference or default to 'light'
+      const currentTheme = localStorage.getItem('theme') || 'light';
+      if (currentTheme === 'dark') {
+        body.classList.add('dark-mode');
+        themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+      }
+
+      themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        const theme = body.classList.contains('dark-mode') ? 'dark' : 'light';
+        localStorage.setItem('theme', theme);
+        themeToggle.innerHTML = theme === 'dark' ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+      });
+
+      // Smooth Scroll Navigation
+      const navLinks = document.querySelectorAll('.nav__link');
+      navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          navLinks.forEach(l => l.classList.remove('active-link'));
+          link.classList.add('active-link');
+        });
+      });
+
+      // Back to Top Button
+      const backToTopBtn = document.getElementById('backToTop');
+      window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+          backToTopBtn.classList.add('show');
+        } else {
+          backToTopBtn.classList.remove('show');
+        }
+      });
+
+      backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+
+      // Active link on scroll
+      window.addEventListener('scroll', () => {
+        let current = '';
+        const sections = document.querySelectorAll('section');
+
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          if (scrollY >= sectionTop - 200) {
+            current = section.getAttribute('id');
+          }
+        });
+
+        navLinks.forEach(link => {
+          link.classList.remove('active-link');
+          if (link.getAttribute('href').slice(1) === current) {
+            link.classList.add('active-link');
+          }
+        });
+      });
+    </script>
   </body>
 </html>
-
