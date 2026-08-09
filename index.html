@@ -21,7 +21,11 @@
       <nav class="nav container">
         <a href="index.html" class="nav__logo">Charan Reddy</a>
 
-        <ul class="nav__list">
+        <div class="nav__toggle" id="navToggle">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <ul class="nav__list" id="navMenu">
           <li class="nav__item">
             <a href="#home" class="nav__link active-link">HOME</a>
           </li>
@@ -62,7 +66,7 @@
               <span>Backend Software Engineer</span>
             </h1>
             <p class="home__description">
-              Software Engineer with 4+ years of professional experience building scalable, reliable backend services and RESTful APIs. Expert in relational databases (PostgreSQL, SQL Server, MySQL), backend systems design, and cloud infrastructure (Azure, AWS).
+              Backend Software Engineer with 4+ years of professional experience building scalable, reliable backend services and RESTful APIs. Expert in relational databases (PostgreSQL, SQL Server, MySQL), backend systems design, and cloud infrastructure (Azure, AWS).
             </p>
 
             <div class="home__btns">
@@ -86,7 +90,7 @@
             </h2>
 
             <p class="about_description">
-              I'm a Software engineer with 4+ years building production-grade systems, APIs, and databases. Specialized expertise in Python, PostgreSQL, TypeScript, and system design. I love solving complex scaling problems, optimizing performance, and building reliable backend infrastructure. Proven track record of designing and implementing scalable architectures, managing production systems, and delivering high-quality solutions. Committed to clean code, comprehensive testing, and production reliability.
+              I'm a backend engineer with 4+ years building production-grade systems, APIs, and databases. Specialized expertise in Python, PostgreSQL, TypeScript, and system design. I love solving complex scaling problems, optimizing performance, and building reliable backend infrastructure. Proven track record of designing and implementing scalable architectures, managing production systems, and delivering high-quality solutions. Committed to clean code, comprehensive testing, and production reliability.
             </p>
 
             <ul class="about__data grid">
@@ -100,7 +104,7 @@
               </li>
               <li class="data__item">
                 <h3 class="data_title">From:</h3>
-                <span class="data__discription">Miami,USA</span>
+                <span class="data__discription">Boston, Massachusetts</span>
               </li>
               <li class="data__item">
                 <h3 class="data_title">Email:</h3>
@@ -501,7 +505,7 @@
                 <i class="fa-solid fa-location-dot contact__icon"></i>
                 <div>
                   <h3 class="contact__title">Address</h3>
-                  <span class="contact__data">Miami, FL</span>
+                  <span class="contact__data">Boston, Massachusetts</span>
                 </div>
               </div>
             </div>
@@ -590,10 +594,21 @@
         themeToggle.innerHTML = theme === 'dark' ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
       });
 
-      // Smooth Scroll Navigation
+      // Mobile Menu Toggle
+      const navToggle = document.getElementById('navToggle');
+      const navMenu = document.getElementById('navMenu');
       const navLinks = document.querySelectorAll('.nav__link');
+
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('nav__menu--active');
+        navToggle.classList.toggle('nav__toggle--active');
+      });
+
+      // Close menu when link is clicked
       navLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
+        link.addEventListener('click', () => {
+          navMenu.classList.remove('nav__menu--active');
+          navToggle.classList.remove('nav__toggle--active');
           navLinks.forEach(l => l.classList.remove('active-link'));
           link.classList.add('active-link');
         });
