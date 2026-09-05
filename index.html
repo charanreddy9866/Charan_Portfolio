@@ -1,654 +1,551 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--=============== FONT AWESOME ===============-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-
-    <!--=============== AOS ===============-->
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-
-    <title>Charan Reddy - Software Engineer</title>
-  </head>
-  <body>
-    <!--==================== HEADER ====================-->
-    <header class="header">
-      <nav class="nav container">
-        <a href="index.html" class="nav__logo">Charan Reddy</a>
-
-        <div class="nav__toggle" id="navToggle">
-          <i class="fas fa-bars"></i>
-        </div>
-
-        <ul class="nav__list" id="navMenu">
-          <li class="nav__item">
-            <a href="#home" class="nav__link active-link">HOME</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#qualification" class="nav__link">Experience</a>
-          </li>
-          <li class="nav__item">
-            <a href="#Projects" class="nav__link">Projects</a>
-          </li>
-          <li class="nav__item">
-            <a href="#services" class="nav__link">Services</a>
-          </li>
-          <li class="nav__item">
-            <a href="#skills" class="nav__link">Skills</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-          <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">
-            <i class="fas fa-moon"></i>
-          </button>
-        </ul>
-      </nav>
-    </header>
-
-    <!--==================== MAIN ====================-->
-    <main class="main">
-      <!--==================== HOME ====================-->
-      <section class="home" id="home">
-        <div class="home__container container grid">
-          <div class="home__content" data-aos="fade-right" data-aos-duration="800">
-            <span class="home__small">Hi, I'm</span>
-            <h1 class="home__title">
-              Charan Reddy Katta <br />
-              <span> Software Engineer</span>
-            </h1>
-            <p class="home__description">
-              Full-Stack Data Professional with 5+ years experience. Data Analyst specializing in analytics, dashboards, and data pipelines. Backend engineer expert in Python, SQL, and cloud infrastructure. Transforming data into actionable insights.
-            </p>
-
-            <div class="home__btns">
-              <a href="#contact" class="btn">Hire me</a>
-              <a href="#Projects" class="btn btn-outline">View my work</a>
-            </div>
-          </div>
-
-          <div class="home__img-wrapper" data-aos="fade-left" data-aos-duration="800">
-            <img src="assets/img/Profile.jpg" alt="Charan Reddy" class="home__img" />
-          </div>
-        </div>
-      </section>
-
-      <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
-        <div class="about__container container grid">
-          <div class="about_content" data-aos="fade-right">
-            <h2 class="section__title" data-title="Professional Summary">
-              Full-Stack Data Professional transforming data into insights. Data Analyst + Backend Engineer combining analytics expertise with software engineering fundamentals.
-            </h2>
-
-            <p class="about_description">
-              I'm a Data Analyst and Software Engineer with 5+ years of experience building data solutions, analytics platforms, and backend systems. I specialize in SQL, Python, Power BI, and data pipeline design. I excel at extracting actionable insights from complex datasets, optimizing database performance, and building reliable infrastructure. I bring both technical depth in software engineering and analytical expertise in business intelligence—combining data-driven decision making with robust system architecture. Proven track record of designing scalable data solutions, optimizing queries, and delivering high-impact analytics. Committed to clean code, comprehensive testing, and production reliability.
-            </p>
-
-            <ul class="about__data grid">
-              <li class="data__item">
-                <h3 class="data_title">Name:</h3>
-                <span class="data__discription">Charan Reddy Katta</span>
-              </li>
-              <li class="data__item">
-                <h3 class="data_title">Age:</h3>
-                <span class="data__discription">24</span>
-              </li>
-              <li class="data__item">
-                <h3 class="data_title">From:</h3>
-                <span class="data__discription">Miami, United States</span>
-              </li>
-              <li class="data__item">
-                <h3 class="data_title">Email:</h3>
-                <span class="data__discription">kcharanreddy2407@gmail.com</span>
-              </li>
-            </ul>
-
-            <div class="about__bottom">
-              <a href="assets/img/Charan 2025.pdf" class="btn" download target="_blank">
-                <i class="fa-solid fa-file-arrow-down"></i> Download Resume
-              </a>
-
-              <div class="about__social-links">
-                <a href="https://www.linkedin.com/in/charanreddykatta" target="_blank" class="about__social-link" title="LinkedIn">
-                  <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/charanreddy9866" target="_blank" class="about__social-link" title="GitHub">
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="https://x.com/Charanreddy2407" target="_blank" class="about__social-link" title="Twitter">
-                  <i class="fa-brands fa-twitter"></i>
-                </a>
-                <a href="https://www.instagram.com/mr.cr__/" target="_blank" class="about__social-link" title="Instagram">
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--==================== EDUCATION & EXPERIENCE ====================-->
-      <section class="qualification section" id="qualification">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charan Reddy Katta | Data Analyst & Software Engineer</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
         <div class="container">
-          <h2 class="section__title title-center" data-title="Professional Journey">Experience & Education</h2>
-
-          <div class="resume__container grid">
-            <!-- Experience Section -->
-            <div class="resume__group">
-              <div>
-                <h3 class="resume__heading">
-                  <i class="fas fa-briefcase"></i> Experience
-                </h3>
-
-                <div class="resume__item" data-aos="fade-up" data-aos-delay="100">
-                  <div class="resume__header">
-                    <div class="resume__institution">
-                      <h3 class="resume__subtitle">The Caring Place</h3>
-                      <span class="resume__location">Miami, FL</span>
-                    </div>
-                    <span class="resume__date">Oct 2025 – Present</span>
-                  </div>
-                  <div class="resume__content">
-                    <h4 class="resume__title">Data Analyst</h4>
-                    <ul class="resume__description">
-                      <li>Develop data analytics solutions and dashboards using SQL and data visualization tools to support business intelligence and decision-making</li>
-                      <li>Design and maintain data pipelines and ETL processes to ensure accurate, timely data availability across the organization</li>
-                      <li>Analyze large datasets to identify trends, patterns, and insights; present findings to stakeholders with actionable recommendations</li>
-                      <li>Optimize database queries and data operations for performance and reliability across production systems</li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="resume__item" data-aos="fade-up" data-aos-delay="200">
-                  <div class="resume__header">
-                    <div class="resume__institution">
-                      <h3 class="resume__subtitle">GBCS Group (SkyIT Services)</h3>
-                      <span class="resume__location">Miami, FL</span>
-                    </div>
-                    <span class="resume__date">Oct 2023 – Sep 2025</span>
-                  </div>
-                  <div class="resume__content">
-                    <h4 class="resume__title">Full Stack Engineer</h4>
-                    <ul class="resume__description">
-                      <li>Developed backend REST APIs using Python and TypeScript; designed relational database schemas supporting enterprise applications and scalable data operations</li>
-                      <li>Optimized database performance for large-scale operations (100K+ records); implemented query optimization, indexing strategies achieving 35% performance improvement</li>
-                      <li>Built data pipelines and ETL processes for analytics; designed SQL queries for reporting and business intelligence dashboards</li>
-                      <li>Implemented comprehensive API testing, code reviews, and quality assurance practices; built test suites (unit and integration tests) ensuring code reliability</li>
-                      <li>Set up CI/CD pipelines (GitHub Actions) for automated testing, building, and cloud deployment; managed production systems and release cycles</li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="resume__item" data-aos="fade-up" data-aos-delay="300">
-                  <div class="resume__header">
-                    <div class="resume__institution">
-                      <h3 class="resume__subtitle">Cognier Insights PVT LTD</h3>
-                      <span class="resume__location">Hyderabad, India</span>
-                    </div>
-                    <span class="resume__date">Oct 2020 – Dec 2023</span>
-                  </div>
-                  <div class="resume__content">
-                    <h4 class="resume__title">Software Engineer (Backend & Data)</h4>
-                    <ul class="resume__description">
-                      <li>Developed backend systems and RESTful APIs supporting enterprise data pipelines and analytics; designed efficient relational database schemas for production workloads</li>
-                      <li>Built 12+ REST APIs with authentication, validation, error handling, and comprehensive documentation; integrated APIs with third-party services and enterprise systems</li>
-                      <li>Optimized SQL database performance and queries; implemented monitoring and performance tracking for production systems</li>
-                      <li>Implemented automated testing frameworks (Pytest) and CI/CD practices; participated in code reviews and Agile development cycles</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+            <div class="nav-wrapper">
+                <div class="logo">Charan Reddy</div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button></li>
+                </ul>
             </div>
-
-            <!-- Education Section -->
-            <div class="resume__group">
-              <div>
-                <h3 class="resume__heading">
-                  <i class="fas fa-graduation-cap"></i> Education
-                </h3>
-
-                <div class="resume__item" data-aos="fade-up" data-aos-delay="100">
-                  <div class="resume__header">
-                    <div class="resume__institution">
-                      <h3 class="resume__subtitle">New Jersey Institute of Technology (NJIT)</h3>
-                      <span class="resume__location">Newark, NJ</span>
-                    </div>
-                    <span class="resume__date">May 2025</span>
-                  </div>
-                  <div class="resume__content">
-                    <h4 class="resume__title">Master of Science in Computer Science</h4>
-                    <ul class="resume__description">
-                      <li>Relevant Coursework: Data Structures, Algorithms, Operating Systems, Distributed Systems, System Design, Cloud Computing, Database Systems</li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="resume__item" data-aos="fade-up" data-aos-delay="200">
-                  <div class="resume__header">
-                    <div class="resume__institution">
-                      <h3 class="resume__subtitle">JNTUH College of Engineering</h3>
-                      <span class="resume__location">Hyderabad, India</span>
-                    </div>
-                    <span class="resume__date">May 2023</span>
-                  </div>
-                  <div class="resume__content">
-                    <h4 class="resume__title">Bachelor of Technology in Computer Science and Engineering</h4>
-                    <ul class="resume__description">
-                      <li>Strong foundation in computer science fundamentals, software engineering, and data structures</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+    </nav>
 
-      <!--==================== PROJECTS ====================-->
-      <section class="Projects section" id="Projects">
+    <!-- Home Section -->
+    <section id="home" class="hero">
         <div class="container">
-          <h2 class="section__title title-center" data-title="Highlighted Work">Projects</h2>
-
-          <div class="projects__grid grid">
-            <div class="project__card" data-aos="zoom-in" data-aos-delay="100">
-              <h3 class="project__title">Analytics Dashboard & Reporting Portal</h3>
-              <p class="project__tags">📊 SQL · Python · Power BI · PostgreSQL</p>
-              <p class="project__desc">
-                Built comprehensive analytics dashboard and reporting portal. Designed complex SQL queries and ETL pipelines processing 100K+ records. Optimized PostgreSQL and SQL Server for analytics workloads; created interactive dashboards for stakeholder insights.
-              </p>
-              <a href="https://github.com/charanreddy9866" target="_blank">
-                <i class="fas fa-github"></i> View on GitHub
-              </a>
+            <div class="hero-content" data-aos="fade-up">
+                <h1>Charan Reddy Katta</h1>
+                <p class="subtitle">Software Engineer & Data Analyst</p>
+                <p class="description">I build data systems that turn raw data into measurable business impact. Over 4+ years of experience across data engineering, analytics, software engineering, and AI/ML, I've built end-to-end solutions spanning data pipelines, automation, BI dashboards, predictive models, APIs, and cloud infrastructure. Full-Stack Development • Data Pipelines • $2M+ Impact</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/charanreddykatta" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/charanreddy9866" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:kcharanreddy2407@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
             </div>
-
-            <div class="project__card" data-aos="zoom-in" data-aos-delay="150">
-              <h3 class="project__title">Data Pipeline & ETL Automation</h3>
-              <p class="project__tags">🔄 ETL · Python · PostgreSQL · Event-Driven</p>
-              <p class="project__desc">
-                Designed and implemented scalable data pipelines for real-time data ingestion and processing. Built event-driven ETL systems handling high-volume data streams. Created automated data workflows reducing manual data processing time by 40%.
-              </p>
-              <a href="https://github.com/charanreddy9866" target="_blank">
-                <i class="fas fa-github"></i> View on GitHub
-              </a>
-            </div>
-
-            <div class="project__card" data-aos="zoom-in" data-aos-delay="200">
-              <h3 class="project__title">Business Intelligence & Data Analysis</h3>
-              <p class="project__tags">📈 SQL · Analytics · Python · AWS</p>
-              <p class="project__desc">
-                Performed deep-dive data analysis on operational metrics and business KPIs. Built automated reporting systems and executive dashboards. Created SQL queries for complex data extraction and analysis supporting strategic decision-making.
-              </p>
-              <a href="https://github.com/charanreddy9866" target="_blank">
-                <i class="fas fa-github"></i> View on GitHub
-              </a>
-            </div>
-
-            <div class="project__card" data-aos="zoom-in" data-aos-delay="250">
-              <h3 class="project__title">Backend API Architecture & Integration</h3>
-              <p class="project__tags">🔗 Python · FastAPI · REST APIs</p>
-              <p class="project__desc">
-                Designed and implemented 12+ production REST APIs with robust authentication, validation, and error handling. Built comprehensive API documentation. Integrated APIs with third-party services and enterprise systems supporting data flows.
-              </p>
-              <a href="https://github.com/charanreddy9866" target="_blank">
-                <i class="fas fa-github"></i> View on GitHub
-              </a>
-            </div>
-
-            <div class="project__card" data-aos="zoom-in" data-aos-delay="300">
-              <h3 class="project__title">Database Optimization & Query Tuning</h3>
-              <p class="project__tags">⚙️ SQL · Query Optimization · PostgreSQL</p>
-              <p class="project__desc">
-                Optimized SQL databases for large-scale operations (100K+ records). Implemented query optimization, indexing strategies, and performance tuning achieving 35% improvement. Enhanced database reliability and scalability.
-              </p>
-              <a href="https://github.com/charanreddy9866" target="_blank">
-                <i class="fas fa-github"></i> View on GitHub
-              </a>
-            </div>
-
-            <div class="project__card" data-aos="zoom-in" data-aos-delay="350">
-              <h3 class="project__title">CI/CD & Cloud Infrastructure</h3>
-              <p class="project__tags">🚀 GitHub Actions · Azure · AWS</p>
-              <p class="project__desc">
-                Set up automated CI/CD pipelines for testing, building, and cloud deployment. Configured production systems and release cycles with infrastructure-as-code. Deployed data pipelines and backend services to Azure and AWS.
-              </p>
-              <a href="https://github.com/charanreddy9866" target="_blank">
-                <i class="fas fa-github"></i> View on GitHub
-              </a>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <!--==================== SERVICES ====================-->
-      <section class="services section" id="services">
+    <!-- About Section -->
+    <section id="about" class="about">
         <div class="container">
-          <h2 class="section__title title-center" data-title="What I Offer">Services</h2>
-
-          <div class="services__container grid">
-            <div class="services_item" data-aos="fade-up" data-aos-delay="100">
-              <i class="fa-solid fa-chart-bar services__icon"></i>
-              <h3 class="services__title">Data Analytics & BI</h3>
-              <p class="services__description">
-                Dashboard design, business intelligence, data storytelling, analytical reporting, KPI tracking, and executive dashboards using Power BI and SQL.
-              </p>
-              <span class="services__no">01</span>
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>I'm a Full-Stack Data Professional transforming complex data problems into actionable solutions. With expertise spanning data engineering, analytics, software development, and AI/ML, I work at the intersection of multiple disciplines to deliver end-to-end solutions.</p>
+                    <p><strong>What I do:</strong> Build reliable data pipelines, automate repetitive processes, create executive dashboards, optimize databases, deploy ML models, and develop scalable APIs. I focus on solving the full problem—not just analyzing data, but building the systems that make data reliable, accessible, and actionable.</p>
+                    <p><strong>How I think about data:</strong> Data is only valuable when it can be trusted, scaled, and used to make better decisions. I'm especially interested in teams solving complex data problems where I can contribute across the full lifecycle—from data architecture and engineering to analytics, automation, and production deployment.</p>
+                </div>
+                <div class="about-highlight" data-aos="fade-left">
+                    <div class="highlight-card">
+                        <h3>Key Achievements</h3>
+                        <ul class="achievements-list">
+                            <li>📊 Built ML churn prediction model with <strong>87% accuracy</strong>, identifying 5K+ at-risk customers (~<strong>$2M</strong> revenue impact)</li>
+                            <li>📈 Engineered Python + SQL automation reducing manual work by <strong>87%</strong> (16 hours → 2 hours)</li>
+                            <li>💼 Built 8 Power BI dashboards analyzing 12K+ donor records, contributing <strong>$120K+</strong> incremental revenue</li>
+                            <li>⚡ Optimized APIs reducing response latency by <strong>68%</strong> (2.8s → 0.9s)</li>
+                            <li>🔧 Improved data consistency from <strong>72% to 96%</strong> across multiple CRM systems</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-
-            <div class="services_item" data-aos="fade-up" data-aos-delay="150">
-              <i class="fa-solid fa-database services__icon"></i>
-              <h3 class="services__title">Database Design & Optimization</h3>
-              <p class="services__description">
-                SQL expertise: schema design, complex queries, query optimization, indexing, performance tuning for 100K+ records and scalability.
-              </p>
-              <span class="services__no">02</span>
-            </div>
-
-            <div class="services_item" data-aos="fade-up" data-aos-delay="200">
-              <i class="fa-solid fa-gears services__icon"></i>
-              <h3 class="services__title">Data Pipelines & ETL</h3>
-              <p class="services__description">
-                ETL design, data engineering, event-driven pipelines, automation, data warehousing, and production data infrastructure.
-              </p>
-              <span class="services__no">03</span>
-            </div>
-
-            <div class="services_item" data-aos="fade-up" data-aos-delay="250">
-              <i class="fa-solid fa-code services__icon"></i>
-              <h3 class="services__title">Backend API Development</h3>
-              <p class="services__description">
-                RESTful APIs using Python (FastAPI) with robust error handling, authentication, testing, and scalable backend architecture.
-              </p>
-              <span class="services__no">04</span>
-            </div>
-
-            <div class="services_item" data-aos="fade-up" data-aos-delay="300">
-              <i class="fa-solid fa-cloud services__icon"></i>
-              <h3 class="services__title">Cloud & DevOps</h3>
-              <p class="services__description">
-                AWS and Azure deployment, CI/CD pipelines (GitHub Actions), infrastructure-as-code, monitoring, and production systems.
-              </p>
-              <span class="services__no">05</span>
-            </div>
-
-            <div class="services_item" data-aos="fade-up" data-aos-delay="350">
-              <i class="fa-solid fa-check-double services__icon"></i>
-              <h3 class="services__title">Testing & Code Quality</h3>
-              <p class="services__description">
-                Unit and integration testing, test-driven development, code reviews, clean code principles, and software engineering best practices.
-              </p>
-              <span class="services__no">06</span>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <!--==================== SKILLS ====================-->
-      <section class="skills section" id="skills">
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
         <div class="container">
-          <h2 class="section__title title-center" data-title="Technical Expertise">Skills</h2>
-          <div class="skills__container grid">
-            <div class="skill__box" data-aos="fade-up" data-aos-delay="100">
-              <div class="skills__titles">
-                <h3 class="skills__name">SQL & Query Optimization</h3>
-                <span class="skills__no">95%</span>
-              </div>
-              <p class="skills__description">
-                Expert-level SQL expertise. Complex queries, query optimization, indexing, schema design, ETL development. PostgreSQL, SQL Server, MySQL.
-              </p>
-              <div class="skills__bar">
-                <div class="skills__percentage" style="--percentage: 95%;"></div>
-              </div>
-            </div>
+            <h2 class="section-title" data-aos="fade-up">Experience</h2>
+            <div class="experience-timeline">
+                <!-- The Caring Place -->
+                <div class="experience-item" data-aos="fade-up">
+                    <div class="exp-header">
+                        <div class="exp-title-group">
+                            <h3>Data Analyst</h3>
+                            <p class="company">The Caring Place (Miami Rescue Mission, Broward Outreach Centers)</p>
+                        </div>
+                        <span class="exp-date">October 2025 - Present (1 year)</span>
+                    </div>
+                    <p class="exp-location">📍 Miami, FL</p>
+                    <p class="exp-description">Engineered end-to-end data and analytics solutions using Python, SQL, Power BI, and predictive analytics, transforming disparate operational data into automated reporting and insights that contributed to $120K+ in incremental revenue.</p>
+                    <ul class="achievements">
+                        <li>Engineered a Python + SQL automation pipeline integrating Salesforce, Blackbaud Raiser's Edge, and internal CRM data; improved data consistency from 72% to 96%, reduced monthly reporting effort by 87% (16 hours → 2 hours), and eliminated manual data-entry errors</li>
+                        <li>Built 8 interactive Power BI dashboards analyzing 12K+ donor records across demographics, fundraising ROI, and program impact; enabled leadership to identify high-value donor segments, contributing to 18% improvement in donor retention and $120K+ in incremental revenue</li>
+                        <li>Conducted cohort analysis of 50K+ donor interactions using Python, Pandas, and NumPy; identified 45–60 age segment with 40% higher lifetime value and supported targeted fundraising strategies</li>
+                        <li>Designed SQL queries and data models to improve reporting performance and maintain data integrity across multiple source systems</li>
+                        <li>Mentored nonprofit staff members & Interns on Power BI and self-service analytics, enabling independent data exploration</li>
+                    </ul>
+                    <div class="exp-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">Power BI</span>
+                        <span class="tag">Salesforce</span>
+                        <span class="tag">ETL</span>
+                        <span class="tag">Data Analysis</span>
+                    </div>
+                </div>
 
-            <div class="skill__box" data-aos="fade-up" data-aos-delay="150">
-              <div class="skills__titles">
-                <h3 class="skills__name">Python for Data & Backend</h3>
-                <span class="skills__no">95%</span>
-              </div>
-              <p class="skills__description">
-                Expert-level proficiency. Data analysis (Pandas, NumPy), backend services (FastAPI, Flask), data pipelines, automation scripting.
-              </p>
-              <div class="skills__bar">
-                <div class="skills__percentage" style="--percentage: 95%;"></div>
-              </div>
-            </div>
+                <!-- GBCS Group -->
+                <div class="experience-item" data-aos="fade-up">
+                    <div class="exp-header">
+                        <div class="exp-title-group">
+                            <h3>Software Engineer</h3>
+                            <p class="company">GBCS Group</p>
+                        </div>
+                        <span class="exp-date">October 2023 - September 2025 (2 years)</span>
+                    </div>
+                    <p class="exp-description">Designed and deployed full-stack solutions with strong focus on data systems, database optimization, and real-time processing.</p>
+                    <ul class="achievements">
+                        <li>Designed and deployed a full-stack real-time inventory tracking system using React, Node.js, MongoDB, and AWS EC2; engineered transaction data processing that reduced stock discrepancies by 25% and improved real-time operational visibility</li>
+                        <li>Optimized database architecture through query rewriting and strategic indexing; reduced API response latency by 68% (2.8s → 0.9s), decreased server load by 30%, and improved performance for 500+ active users</li>
+                        <li>Designed scalable MongoDB schemas supporting both transactional workloads and analytical reporting, enabling real-time inventory tracking alongside historical inventory analysis</li>
+                        <li>Architected AWS infrastructure and CI/CD pipelines on EC2 with automated testing and deployment workflows, reducing manual deployment errors</li>
+                        <li>Implemented JWT-based authentication, authorization, and role-based access control, securely supporting 500+ users in production</li>
+                        <li>Conducted 40+ code reviews focused on system architecture, database design, performance, and production best practices</li>
+                    </ul>
+                    <div class="exp-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">Database Design</span>
+                        <span class="tag">CI/CD</span>
+                    </div>
+                </div>
 
-            <div class="skill__box" data-aos="fade-up" data-aos-delay="200">
-              <div class="skills__titles">
-                <h3 class="skills__name">Data Analytics & Visualization</h3>
-                <span class="skills__no">90%</span>
-              </div>
-              <p class="skills__description">
-                Power BI, dashboard design, data storytelling, analytical reporting, KPI tracking, business intelligence, executive dashboards.
-              </p>
-              <div class="skills__bar">
-                <div class="skills__percentage" style="--percentage: 90%;"></div>
-              </div>
+                <!-- IBM -->
+                <div class="experience-item" data-aos="fade-up">
+                    <div class="exp-header">
+                        <div class="exp-title-group">
+                            <h3>ML & Data Systems Engineer</h3>
+                            <p class="company">IBM</p>
+                        </div>
+                        <span class="exp-date">January 2020 - June 2023 (3 years 6 months)</span>
+                    </div>
+                    <p class="exp-location">📍 Greater Hyderabad Area</p>
+                    <p class="exp-description">Built and deployed data-driven software and machine learning solutions, combining Python, SQL, predictive modeling, and production data pipelines to solve large-scale business problems.</p>
+                    <ul class="achievements">
+                        <li>Built and deployed a production churn prediction model using Scikit-learn (Random Forest, Gradient Boosting), achieving 87% accuracy and enabling proactive targeting of 5K+ at-risk customers annually</li>
+                        <li>Engineered Python-based feature engineering pipelines processing 500K+ customer records using Pandas, NumPy, and Scikit-learn; optimized vectorization and caching to reduce computation time by 45%</li>
+                        <li>Optimized ML model serving and inference workflows, reducing prediction latency by 86% (850ms → 120ms) and enabling sub-second predictions</li>
+                        <li>Designed Python + SQL ETL and data preparation pipelines, reducing monthly manual data preparation from 8 hours to 1.5 hours and improving data quality</li>
+                        <li>Developed monitoring dashboards for data pipelines and model performance, helping identify data-quality and model-performance issues proactively</li>
+                        <li>Mentored 3 junior ML and data engineers on feature engineering, data pipelines, model evaluation, and production deployment practices</li>
+                    </ul>
+                    <div class="exp-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">ETL</span>
+                        <span class="tag">Scikit-learn</span>
+                        <span class="tag">Data Pipelines</span>
+                    </div>
+                </div>
             </div>
-
-            <div class="skill__box" data-aos="fade-up" data-aos-delay="250">
-              <div class="skills__titles">
-                <h3 class="skills__name">Data Pipelines & ETL</h3>
-                <span class="skills__no">90%</span>
-              </div>
-              <p class="skills__description">
-                ETL design, data engineering, event-driven architecture, pipeline automation, data warehousing, production data systems.
-              </p>
-              <div class="skills__bar">
-                <div class="skills__percentage" style="--percentage: 90%;"></div>
-              </div>
-            </div>
-
-            <div class="skill__box" data-aos="fade-up" data-aos-delay="300">
-              <div class="skills__titles">
-                <h3 class="skills__name">Backend API & System Design</h3>
-                <span class="skills__no">90%</span>
-              </div>
-              <p class="skills__description">
-                REST API design, FastAPI, scalable architecture, microservices, authentication, testing, production reliability, performance optimization.
-              </p>
-              <div class="skills__bar">
-                <div class="skills__percentage" style="--percentage: 90%;"></div>
-              </div>
-            </div>
-
-            <div class="skill__box" data-aos="fade-up" data-aos-delay="350">
-              <div class="skills__titles">
-                <h3 class="skills__name">Cloud & DevOps</h3>
-                <span class="skills__no">85%</span>
-              </div>
-              <p class="skills__description">
-                Azure, AWS deployment. CI/CD (GitHub Actions), Docker, infrastructure-as-code, monitoring, cloud databases, production systems.
-              </p>
-              <div class="skills__bar">
-                <div class="skills__percentage" style="--percentage: 85%;"></div>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <!--==================== CONTACT ====================-->
-      <section class="contact section" id="contact">
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
         <div class="container">
-          <h2 class="section__title title-center" data-title="Get in Touch">Contact Me</h2>
-
-          <div class="contact__container grid">
-            <div class="contact_details">
-              <div class="contact__item" data-aos="fade-right" data-aos-delay="100">
-                <i class="fa-solid fa-phone contact__icon"></i>
-                <div>
-                  <h3 class="contact__title">Call me</h3>
-                  <span class="contact__data">+1 (551) 375-6924</span>
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-content">
+                        <h3>Analytics Dashboard & Reporting Portal</h3>
+                        <p>Enterprise data platform combining Python ETL automation with Power BI dashboards for real-time business intelligence and self-service analytics.</p>
+                        <ul class="project-highlights">
+                            <li>Integrated 3+ data sources (Salesforce, CRM systems, databases)</li>
+                            <li>Reduced reporting time by 87% through automation</li>
+                            <li>Built 8 interactive dashboards for leadership insights</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="tag">📊 SQL</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Power BI</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
                 </div>
-              </div>
 
-              <div class="contact__item" data-aos="fade-right" data-aos-delay="200">
-                <i class="fa-solid fa-envelope contact__icon"></i>
-                <div>
-                  <h3 class="contact__title">E-mail me</h3>
-                  <span class="contact__data">kcharanreddy2407@gmail.com</span>
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-content">
+                        <h3>Data Pipeline & ETL Automation</h3>
+                        <p>Production Python + SQL automation system processing 500K+ records daily, improving data consistency and eliminating manual workflows.</p>
+                        <ul class="project-highlights">
+                            <li>Processes 500K+ records with real-time updates</li>
+                            <li>Improved data consistency from 72% to 96%</li>
+                            <li>Reduced manual work by 87% monthly</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="tag">🔄 ETL</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Event-Driven</span>
+                        </div>
+                    </div>
                 </div>
-              </div>
 
-              <div class="contact__item" data-aos="fade-right" data-aos-delay="300">
-                <i class="fa-solid fa-location-dot contact__icon"></i>
-                <div>
-                  <h3 class="contact__title">Address</h3>
-                  <span class="contact__data">Miami, United States</span>
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-content">
+                        <h3>Business Intelligence & Predictive Analytics</h3>
+                        <p>ML-powered analytics combining churn prediction (87% accuracy), cohort analysis, and customer segmentation for strategic decision-making.</p>
+                        <ul class="project-highlights">
+                            <li>87% accuracy churn prediction model</li>
+                            <li>Identified high-value segments with 40% higher LTV</li>
+                            <li>$2M+ annual revenue impact</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="tag">📈 SQL</span>
+                            <span class="tag">Analytics</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">ML</span>
+                        </div>
+                    </div>
                 </div>
-              </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-content">
+                        <h3>Real-Time Inventory Tracking System</h3>
+                        <p>Full-stack application processing transaction data in real-time, reducing stock discrepancies and enabling live operational visibility.</p>
+                        <ul class="project-highlights">
+                            <li>Real-time data processing for 500+ active users</li>
+                            <li>Reduced stock discrepancies by 25%</li>
+                            <li>MongoDB + React + Node.js architecture</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="tag">🔗 React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-content">
+                        <h3>Database Optimization & Query Performance</h3>
+                        <p>Strategic database architecture redesign with query rewriting and indexing, delivering significant performance improvements.</p>
+                        <ul class="project-highlights">
+                            <li>68% reduction in API latency (2.8s → 0.9s)</li>
+                            <li>30% decrease in server load</li>
+                            <li>Supports 500+ concurrent users</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="tag">⚙️ SQL</span>
+                            <span class="tag">Query Optimization</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Performance Tuning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-content">
+                        <h3>Cloud Infrastructure & CI/CD Pipelines</h3>
+                        <p>AWS-based infrastructure with automated testing and deployment, reducing errors and improving release reliability.</p>
+                        <ul class="project-highlights">
+                            <li>EC2 + IAM + VPC infrastructure design</li>
+                            <li>Automated testing and deployment workflows</li>
+                            <li>JWT-based auth for 500+ users</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="tag">🚀 AWS</span>
+                            <span class="tag">GitHub Actions</span>
+                            <span class="tag">CI/CD</span>
+                            <span class="tag">Infrastructure</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <form action="https://formspree.io/f/mnnpoano" method="POST" class="contact__form" data-aos="fade-left" data-aos-delay="100">
-              <div class="form__group">
-                <div class="form__input">
-                  <input type="text" name="name" placeholder="Your Name" class="input__control" required />
-                </div>
-
-                <div class="form__input">
-                  <input type="email" name="email" placeholder="Your Email" class="input__control" required />
-                </div>
-              </div>
-
-              <div class="form__input">
-                <input type="text" name="subject" placeholder="Subject" class="input__control" />
-              </div>
-
-              <div class="form__input">
-                <textarea name="message" placeholder="Your Message" cols="30" rows="10" class="input__control textarea" required></textarea>
-              </div>
-
-              <button type="submit" class="btn contact__btn">Send Message</button>
-            </form>
-          </div>
         </div>
-      </section>
-    </main>
+    </section>
 
-    <!--==================== FOOTER ====================-->
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+            <p class="section-subtitle">Core Technical Skills: Python • SQL • Pandas • NumPy • Scikit-learn • TensorFlow • ETL • Data Pipelines • Power BI • Tableau • PostgreSQL • MySQL • T-SQL • MongoDB • AWS • React • Node.js • REST APIs • Machine Learning • Generative AI</p>
+
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-header">
+                        <h3>SQL & Query Optimization</h3>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <p>Expert-level SQL expertise across PostgreSQL, MySQL, T-SQL, and MongoDB. Design complex queries, optimize performance, architect scalable schemas, and build data models for reporting and analytics.</p>
+                    <div class="skill-meta">PostgreSQL, MySQL, T-SQL, Query Performance Tuning, Data Modeling</div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-header">
+                        <h3>Python for Data & Backend</h3>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <p>Advanced Python across data analysis, backend development, and ML. Pandas, NumPy, Scikit-learn for data pipelines. FastAPI, Node.js for scalable APIs. Feature engineering and production-grade code.</p>
+                    <div class="skill-meta">Pandas, NumPy, Scikit-learn, TensorFlow, FastAPI, Production Python</div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-header">
+                        <h3>Data Analytics & Visualization</h3>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <p>Build interactive dashboards and BI solutions. Power BI and Tableau expertise for executive reporting, self-service analytics, and data-driven insights. Cohort analysis and customer segmentation.</p>
+                    <div class="skill-meta">Power BI, Tableau, Dashboard Design, Business Intelligence, Analytics Strategy</div>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-header">
+                        <h3>Data Pipelines & ETL</h3>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <p>Design and engineer end-to-end ETL systems processing 500K+ records. Python + SQL automation, data quality assurance, real-time pipelines, and event-driven architectures.</p>
+                    <div class="skill-meta">ETL Design, Python Pipelines, Data Quality, Real-time Processing, Automation</div>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-header">
+                        <h3>Backend API & System Design</h3>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <p>Design and build scalable REST APIs and full-stack applications. React, Node.js, MongoDB, authentication, authorization, and system architecture supporting 500+ concurrent users.</p>
+                    <div class="skill-meta">REST APIs, FastAPI, Node.js, React, System Architecture, JWT Auth</div>
+                </div>
+
+                <!-- Skill 6 -->
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-header">
+                        <h3>Cloud & DevOps</h3>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <p>AWS infrastructure design, deployment, and CI/CD automation. EC2, RDS, VPC, IAM, GitHub Actions, automated testing, and production deployment workflows.</p>
+                    <div class="skill-meta">AWS, GitHub Actions, CI/CD Pipelines, EC2, RDS, Infrastructure as Code</div>
+                </div>
+
+                <!-- Skill 7 -->
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-header">
+                        <h3>Machine Learning & AI</h3>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <p>End-to-end ML workflows including model development, evaluation, optimization, and production deployment. Experience with Scikit-learn, TensorFlow, feature engineering, and predictive modeling.</p>
+                    <div class="skill-meta">Scikit-learn, TensorFlow, Feature Engineering, Model Optimization, Production ML</div>
+                </div>
+
+                <!-- Skill 8 -->
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-header">
+                        <h3>Generative AI & LLMs</h3>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <p>OpenAI API integration, prompt engineering, RAG workflows, and LLM-based application development. Building AI-powered solutions for automation and analytics.</p>
+                    <div class="skill-meta">OpenAI API, Prompt Engineering, RAG, LLM Applications, AI Automation</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">What I Can Help With</h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Data Analytics & BI</h3>
+                    <p>Transform raw data into actionable insights. Build interactive dashboards, design BI solutions, and create reporting systems that drive decision-making.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Design & Optimization</h3>
+                    <p>Design scalable database architectures, optimize queries, improve performance, and ensure data consistency across systems.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-pipe"></i>
+                    </div>
+                    <h3>Data Pipelines & ETL</h3>
+                    <p>Build reliable, scalable ETL systems. Automate data workflows, ensure data quality, and integrate multiple data sources.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Backend API Development</h3>
+                    <p>Design and build scalable REST APIs, full-stack applications, and microservices using Python, Node.js, and modern frameworks.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>AWS infrastructure design, CI/CD automation, deployment pipelines, and cloud-native application development.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Machine Learning & AI</h3>
+                    <p>Build predictive models, deploy ML solutions, develop AI-powered applications, and solve complex business problems with data science.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education & Certifications</h2>
+            <div class="education-grid">
+                <div class="education-card" data-aos="fade-up">
+                    <h3>Master of Science, Computer Science</h3>
+                    <p class="edu-institution">New Jersey Institute of Technology (NJIT)</p>
+                    <p class="edu-date">August 2023 - May 2025</p>
+                </div>
+
+                <div class="education-card" data-aos="fade-up">
+                    <h3>Bachelor's Degree, Computer Science</h3>
+                    <p class="edu-institution">JNTUH College of Engineering Hyderabad</p>
+                    <p class="edu-date">2019 - 2023</p>
+                </div>
+
+                <div class="education-card" data-aos="fade-up">
+                    <h3>Certified Agile Scrum Master (CASM)</h3>
+                    <p class="edu-institution">Agile Certification</p>
+                </div>
+
+                <div class="education-card" data-aos="fade-up">
+                    <h3>Microsoft Azure AI Essentials</h3>
+                    <p class="edu-institution">Microsoft & LinkedIn Professional Certificate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <p class="section-subtitle">I'm always interested in hearing about new projects and opportunities. Feel free to reach out if you'd like to connect.</p>
+
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+15513756924">+1 (551) 375-6924</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:kcharanreddy2407@gmail.com">kcharanreddy2407@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Miami, Florida, USA</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Links</h4>
+                            <p>
+                                <a href="https://linkedin.com/in/charanreddykatta" target="_blank">LinkedIn</a> •
+                                <a href="https://github.com/charanreddy9866" target="_blank">GitHub</a> •
+                                <a href="https://charanreddy9866.github.io/Charan_Portfolio/" target="_blank">Portfolio</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" data-aos="fade-left" action="https://formspree.io/f/xvgqepna" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
-      <div class="footer__conatiner container">
-        <p class="footer__copyright">&copy;2025 Charan Katta. All Rights Reserved</p>
-
-        <div class="about__social-links">
-          <a href="https://www.linkedin.com/in/charanreddykatta" target="_blank" class="about__social-link" title="LinkedIn">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-
-          <a href="https://github.com/charanreddy9866" target="_blank" class="about__social-link" title="GitHub">
-            <i class="fa-brands fa-github"></i>
-          </a>
-
-          <a href="https://x.com/Charanreddy2407" target="_blank" class="about__social-link" title="Twitter">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-
-          <a href="https://www.instagram.com/mr.cr__/" target="_blank" class="about__social-link" title="Instagram">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
+        <div class="container">
+            <p>&copy; 2025 Charan Reddy Katta. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://linkedin.com/in/charanreddykatta" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/charanreddy9866" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:kcharanreddy2407@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
         </div>
-      </div>
     </footer>
 
-    <!--==================== BACK TO TOP BUTTON ====================-->
-    <button class="back-to-top" id="backToTop" title="Back to top">
-      <i class="fas fa-arrow-up"></i>
-    </button>
-
-    <!--==================== SCRIPTS ====================-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      // Initialize AOS
-      AOS.init({
-        duration: 1000,
-        once: false,
-        offset: 100
-      });
-
-      // Theme Toggle
-      const themeToggle = document.getElementById('themeToggle');
-      const body = document.body;
-
-      // Check for saved theme preference or default to 'light'
-      const currentTheme = localStorage.getItem('theme') || 'light';
-      if (currentTheme === 'dark') {
-        body.classList.add('dark-mode');
-        themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
-      }
-
-      themeToggle.addEventListener('click', () => {
-        body.classList.toggle('dark-mode');
-        const theme = body.classList.contains('dark-mode') ? 'dark' : 'light';
-        localStorage.setItem('theme', theme);
-        themeToggle.innerHTML = theme === 'dark' ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
-      });
-
-      // Mobile Menu Toggle
-      const navToggle = document.getElementById('navToggle');
-      const navMenu = document.getElementById('navMenu');
-      const navLinks = document.querySelectorAll('.nav__link');
-
-      navToggle.addEventListener('click', () => {
-        navMenu.classList.toggle('nav__menu--active');
-        navToggle.classList.toggle('nav__toggle--active');
-      });
-
-      // Close menu when link is clicked
-      navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-          navMenu.classList.remove('nav__menu--active');
-          navToggle.classList.remove('nav__toggle--active');
-          navLinks.forEach(l => l.classList.remove('active-link'));
-          link.classList.add('active-link');
-        });
-      });
-
-      // Back to Top Button
-      const backToTopBtn = document.getElementById('backToTop');
-      window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 300) {
-          backToTopBtn.classList.add('show');
-        } else {
-          backToTopBtn.classList.remove('show');
-        }
-      });
-
-      backToTopBtn.addEventListener('click', () => {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        });
-      });
-
-      // Active link on scroll
-      window.addEventListener('scroll', () => {
-        let current = '';
-        const sections = document.querySelectorAll('section');
-
-        sections.forEach(section => {
-          const sectionTop = section.offsetTop;
-          if (scrollY >= sectionTop - 200) {
-            current = section.getAttribute('id');
-          }
-        });
-
-        navLinks.forEach(link => {
-          link.classList.remove('active-link');
-          if (link.getAttribute('href').slice(1) === current) {
-            link.classList.add('active-link');
-          }
-        });
-      });
-    </script>
-  </body>
+    <script src="assets/js/script.js"></script>
+</body>
 </html>
